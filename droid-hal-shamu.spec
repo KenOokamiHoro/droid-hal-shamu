@@ -1,6 +1,18 @@
 # These and other macros are documented in dhd/droid-hal-device.inc
 # Feel free to cleanup this file by removing comments, once you have memorised them ;)
 
+%define straggler_files \
+/bugreports\
+/d\
+/file_contexts.bin\
+/property_contexts\
+/sdcard\
+/selinux_version\
+/service_contexts\
+/vendor\
+
+
+
 %define device shamu
 %define vendor moto
 
